@@ -1,0 +1,74 @@
+.App {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  h1 {
+    text-align: center;
+    color: rgb(32, 106, 218);
+
+  }
+  
+  div {
+    margin-bottom: 15px;
+  }
+  
+  input {
+    padding: 8px;
+    margin-right: 10px;
+  }
+  
+  button {
+    padding: 8px 12px;
+    cursor: pointer;
+    background-color: rgb(85, 0, 255);
+    color: #fff;
+    border-radius: 2px;
+  }
+  
+  ul {
+    /* list-style-type: none; */
+    padding: 0;
+  }
+  
+  li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+  
+  span {
+    flex-grow: 1;
+    cursor: pointer;
+  }
+  
+  button {
+    margin-left: 4px;
+    background-color: brown;
+  }
+  
+  label {
+    margin-right: 10px;
+  }
+  
+  span {
+    flex-grow: 1;
+    cursor: pointer;
+    text-decoration: none; 
+    color: red; /* Default text color for incomplete tasks */
+  }
+  
+  span.completed {
+    color: black; /* Color for completed tasks */
+    text-decoration: line-through; 
+  }
+  
