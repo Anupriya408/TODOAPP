@@ -64,11 +64,11 @@
     flex-grow: 1;
     cursor: pointer;
     text-decoration: none; 
-    color: red; /* Default text color for incomplete tasks */
+    color: black; /* Default text color for incomplete tasks */
   }
   
   span.completed {
-    color: black; /* Color for completed tasks */
+    color: red; /* Color for completed tasks */
     text-decoration: line-through; 
   }
   
