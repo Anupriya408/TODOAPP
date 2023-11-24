@@ -83,7 +83,7 @@ function App() {
         {filteredTodos.map((todo) => (
           <li key={todo.id}>
             <span
-              // style={{ textDecoration: todo.completed ? 'line-through' : 'none' }}
+              
               className={todo.completed ? 'completed' : '' }
               onClick={() => handleToggleCompletion(todo.id)}
             >
